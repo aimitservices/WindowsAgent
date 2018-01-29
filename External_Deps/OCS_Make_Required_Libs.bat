@@ -13,7 +13,7 @@ echo.
 Rem ========= UPDATE CONSTANTS BELOW TO MEET YOUR CONFIGURATION NEED =========  
 
 Rem Set path to MS Visual C++
-set VC_PATH=C:\Program Files (x86)\\Microsoft Visual Studio 12.0\VC
+set VC_PATH="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC"
 
 Rem Set path to MS Windows SDK, needed to build cURL
 set WINDOWS_SDK_PATH="C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A"
@@ -22,22 +22,22 @@ Rem Set path to Perl 5.6 or higher binary
 set PERL_PATH=C:\Perl\bin
 
 Rem Set path to Zlib sources
-set ZLIB_PATH=C:\Users\user-win-dev\Documents\GitHub\WindowsAgent\External_Deps\zlib-1.2.8
+set ZLIB_PATH=C:\Users\jjones\Documents\GitHub\WindowsAgent\External_Deps\Zlib-1.2.11
 
 Rem Set path to OpenSSL sources
-set OPENSSL_PATH=C:\Users\user-win-dev\Documents\GitHub\WindowsAgent\External_Deps\openssl-1.0.2k
+set OPENSSL_PATH=C:\Users\jjones\Documents\GitHub\WindowsAgent\External_Deps\openssl-1.0.2n
 
 Rem Set path to cURL sources
-set CURL_PATH=C:\Users\user-win-dev\Documents\GitHub\WindowsAgent\External_Deps\curl-7.54.0\src
+set CURL_PATH=C:\Users\jjones\Documents\GitHub\WindowsAgent\External_Deps\curl-7.58.0\src
 
 Rem Set path to tinyXML sources
-SET XML_PATH=C:\Users\user-win-dev\Documents\GitHub\WindowsAgent\External_Deps\tinyxml
+SET XML_PATH=C:\Users\jjones\Documents\GitHub\WindowsAgent\External_Deps\tinyxml_2_6_2
 
 Rem Set path to ZipArchive sources, for example
-SET ZIP_PATH=C:\Users\user-win-dev\Documents\GitHub\WindowsAgent\External_Deps\ZipArchive
+SET ZIP_PATH=C:\Users\jjones\Documents\GitHub\WindowsAgent\External_Deps\ZipArchive
 
 Rem Set path to Net-SNMP sources, for example
-SET SNMP_PATH=C:\Users\user-win-dev\Documents\GitHub\WindowsAgent\External_Deps\net-snmp-5.7.3
+SET SNMP_PATH=C:\Users\jjones\Documents\GitHub\WindowsAgent\External_Deps\net-snmp-5.7.3
 
 Rem ========= DO NOT MODIFY BELOW, UNTIL YOU KNOW WHAT YOU ARE DOING =========
 
