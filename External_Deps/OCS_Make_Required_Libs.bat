@@ -13,13 +13,13 @@ echo.
 Rem ========= UPDATE CONSTANTS BELOW TO MEET YOUR CONFIGURATION NEED =========  
 
 Rem Set path to MS Visual C++
-set VC_PATH="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC"
+set VC_PATH=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC
 
 Rem Set path to MS Windows SDK, needed to build cURL
 set WINDOWS_SDK_PATH="C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A"
 
 Rem Set path to Perl 5.6 or higher binary
-set PERL_PATH=C:\Perl\bin
+set PERL_PATH=C:\xampp\perl\bin\
 
 Rem Set path to Zlib sources
 set ZLIB_PATH=C:\Users\jjones\Documents\GitHub\WindowsAgent\External_Deps\Zlib-1.2.11
