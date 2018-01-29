@@ -267,14 +267,14 @@ void CDeviceid::checkDeviceid()
 	if (bMacChanged && (m_csHostName != csFileHostname))
 	{
 		// Both MAC and hostname changes
-		csDeviceID.Empty();
+		//csDeviceID.Empty();
 		pLogger->log( LOG_PRIORITY_NOTICE, _T( "DID_CHECK => MAC Address changed new:<%s> old:<%s>, Hostname changed new:<%s> old:<%s>"), 
 			csActualMac, csFileMac, m_csHostName, csFileHostname ); 
 	}
 	else if (bMacChanged || (m_csHostName != csFileHostname))
 	{
 		m_csOldDeviceid = csDeviceID;
-		csDeviceID.Empty();
+		//csDeviceID.Empty();
 		if (bMacChanged)				
 			pLogger->log( LOG_PRIORITY_NOTICE, _T( "DID_CHECK => MAC Address changed new:<%s> old:<%s>"), csActualMac, csFileMac);
 		else
